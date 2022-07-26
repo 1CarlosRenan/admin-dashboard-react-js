@@ -8,7 +8,7 @@ import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Ka
 import './App.css';
 
 const App = () => {
-  const activeMenu = false
+  const activeMenu = true;
   return (
     <div>
       <BrowserRouter>
@@ -49,7 +49,7 @@ const App = () => {
               <Route path="/kanban" element={<Kanban />} />
               <Route path="/editor" element={<Editor />} />
               <Route path="/calendar" element={<Calendar />} />
-              <Route path="/color-picker" element={<colorPicker />} />
+              <Route path="/color-picker" element={<ColorPicker />} />
 
               {/* Charts */}
               <Route path="/line" element={<Line />} />
